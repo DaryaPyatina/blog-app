@@ -1,0 +1,97 @@
+// .wrapper-articleItem {
+//   background-color: #fff;
+//   box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+//   border-radius: 5px;
+//   height: 90px;
+//   width: 860px;
+
+//   padding: 10px;
+
+//   .ant-card-body {
+//     height: 140px;
+//     padding: 10px !important;
+//   }
+
+.main {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  height: 90px;
+  width: 860px;
+
+  padding: 10px;
+
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+
+  .article-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+    .ant-tag {
+      border-color: black;
+      width: max-content;
+    }
+  }
+
+  .article-user {
+    display: flex;
+    gap: 10px;
+    width: 50%;
+    justify-content: flex-end;
+
+    .article-user-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-end;
+    }
+    .date {
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    .article-user-name {
+      font-size: 18px;
+    }
+  }
+
+  .article-info-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .like {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+
+      .putLike {
+        svg {
+          fill: red;
+        }
+      }
+
+      .anticon svg {
+        width: 16px !important;
+        height: 16px !important;
+      }
+    }
+  }
+
+  .text {
+    width: 682px;
+    height: 45px;
+    font-size: 12px;
+    overflow: hidden;
+    word-break: break-all;
+  }
+
+  .title {
+    font-size: 20px;
+    color: #1890ff;
+  }
+}
+// }
