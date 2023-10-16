@@ -17,12 +17,13 @@
     margin: 0 5px;
     display: flex;
     flex-direction: column;
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
     color: rgba(0, 0, 0, 0.75);
+    word-break: break-all;
   }
 
   .ant-card-body {
@@ -35,7 +36,7 @@
     margin-top: 5px;
     margin-left: 5px;
     justify-content: space-between;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
     .article-infoCurrent {
       display: flex;
